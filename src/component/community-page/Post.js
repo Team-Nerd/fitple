@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Post.css';
 import ScrollableTable from './ScrollableTable';
 
@@ -61,9 +62,11 @@ function Post() {
 
   return (
     <div className="post-container">
-      <button className="write-button" onClick={toggleForm}>글쓰기
-        <img className='write_icon' src="write_icon.png" alt="write_icon" />
-      </button>
+      <Link to="/community-write" style={{textDecoration: 'none', color: 'inherit'}}>
+        <button className="write-button">글쓰기
+          <img className='write_icon' src="write-button-icon.png" alt="write_icon" />
+        </button>
+      </Link>
       {showForm && (
         <form onSubmit={handleSubmit}>
           <input
