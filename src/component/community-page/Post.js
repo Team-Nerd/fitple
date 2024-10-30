@@ -21,7 +21,10 @@ function Post() {
     content: '',
   });
 
-  // 새로운 게시물 불러오기
+  const toggleForm = () => {
+    setShowForm(prevShowForm => !prevShowForm);
+  };
+
   const loadMorePosts = () => {
     const newPosts = initialPosts.map(post => ({
       ...post,
@@ -58,7 +61,7 @@ function Post() {
 
   return (
     <div className="post-container">
-      <button className="write-button">글쓰기
+      <button className="write-button" onClick={toggleForm}>글쓰기
         <img className='write_icon' src="write_icon.png" alt="write_icon" />
       </button>
       {showForm && (
