@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import CategorySubMenu from './CategorySubMenu';  // 서브메뉴 컴포넌트 임포트
 import './Category.css';
 
@@ -113,7 +114,10 @@ function CategoryHover1() {
         }}
         style={{ position: 'absolute', top: '190px', left: '250px', width: '200px', height: '32px' }}
       >
-        전공 별 커뮤니티
+        {/* Link to CommunityPage */}
+        <Link to="/community-page" style={{ textDecoration: 'none', color: 'inherit' }}>
+          전공 별 커뮤니티
+        </Link>
         {isHovered && (
           <div className="hover-box">
             {['공과대학', '자연과학대학', '경영대학', '사범대학', '사회과학대학', '문과대학', '의과대학', '간호대학', '예술체육대학', '소프트웨어융합대학', '바이오시스템융합학부'].map((menu) => (
