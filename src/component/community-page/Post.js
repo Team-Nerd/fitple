@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Post.css';
 import ScrollableTable from './ScrollableTable';
 
@@ -29,9 +30,11 @@ function Post() {
 
   return (
     <div className="post-container">
-      <button className="write-button">글쓰기
-        <img className='write_icon' src="write_icon.png" alt="write_icon" />
-      </button>
+      <Link to="community-write" style={{textDecoration: 'none', color: 'inherit'}}>
+        <button className="write-button">글쓰기
+          <img className='write_icon' src="write-button-icon.png" alt="write_icon" />
+        </button>
+      </Link>
       <div className="community-page">
         <h2>전공별 커뮤니티</h2>
         <div className="communityCategory">
@@ -44,3 +47,7 @@ function Post() {
 }
 
 export default Post;
+
+              // <Link to="/mento-list" className="category-mento-list" style={{ textDecoration: 'none', color: 'inherit' }}>
+              //   멘토 목록 <span className="arrow">›</span>
+              // </Link>
