@@ -30,7 +30,7 @@ function Post() {
 
   return (
     <div className="post-container">
-      <Link to="community-write" style={{textDecoration: 'none', color: 'inherit'}}>
+      <Link to="/community-write" style={{textDecoration: 'none', color: 'inherit'}}>
         <button className="write-button">글쓰기
           <img className='write_icon' src="write-button-icon.png" alt="write_icon" />
         </button>
@@ -47,7 +47,3 @@ function Post() {
 }
 
 export default Post;
-
-              // <Link to="/mento-list" className="category-mento-list" style={{ textDecoration: 'none', color: 'inherit' }}>
-              //   멘토 목록 <span className="arrow">›</span>
-              // </Link>

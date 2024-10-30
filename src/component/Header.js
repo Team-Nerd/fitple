@@ -1,10 +1,13 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./Header.css";
 
 function Header() {
     return(
         <header className = "header">
-            <img className = "header-title" src = '/title.png' alt = 'Title image'></img>
+            <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <img className = "header-title" src = '/title.png' alt = 'Title image'></img>
+            </Link>
             <div className = "header-subtitle">
                 <span>여러분들을 위한 전공 커뮤니티, 웹이름</span>
             </div>
