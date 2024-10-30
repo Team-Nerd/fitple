@@ -1,0 +1,62 @@
+.header{
+    font-family:'Courier New', Courier, monospace
+}
+
+.header-title{
+    position: absolute;
+    width: 230px;
+    height: 100px;
+    margin-top: 65px;
+    margin-left: 103px;
+}
+
+.header-subtitle{
+    position: absolute;
+    width: 450px;
+    height: 16px;
+    margin-top: 60px;
+    margin-left: 420px;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.header-register{
+    position: absolute;
+    top: 30px;
+    left: 1075px;
+    font-size: 14px;
+}
+
+.seperate-bar1{
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 1142px;
+    font-size: 22px;
+}
+
+.header-login{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 1174px;
+    font-size: 14px
+}
+
+.seperate-bar2{
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 1230px;
+    font-size: 22px;
+}
+
+.header-mypage{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 1265px;
+    font-size: 14px;
+}
+
+.category-border{
+    position: absolute;
+    margin-top: 189px;
+    border: 1px solid black;
+}
