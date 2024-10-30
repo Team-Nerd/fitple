@@ -15,6 +15,11 @@ const initialPosts = [
 function Post() {
   const [posts, setPosts] = useState(initialPosts);
   const [page, setPage] = useState(1);
+  const [showForm, setShowForm] = useState(false);
+  const [newPost, setNewPost] = useState({
+    title: '',
+    content: '',
+  });
 
   // 새로운 게시물 불러오기
   const loadMorePosts = () => {
@@ -27,11 +32,53 @@ function Post() {
     setPage(prevPage => prevPage + 1);
   };
 
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setNewPost(prevPost => ({
+      ...prevPost,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const response = await fetch('/api/posts/', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(newPost),
+    });
+    if (response.ok) {
+      console.log('게시물이 성공적으로 저장되었습니다.');
+    } else {
+      console.error('게시물 저장에 실패하였습니다.');
+    }
+  };
+
   return (
     <div className="post-container">
       <button className="write-button">글쓰기
         <img className='write_icon' src="write_icon.png" alt="write_icon" />
       </button>
+      {showForm && (
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            name="title"
+            placeholder="제목"
+            value={newPost.title}
+            onChange={handleInputChange}
+          />
+          <textarea
+            name="content"
+            placeholder="내용"
+            value={newPost.content}
+            onChange={handleInputChange}
+          />
+          <button type="submit">저장</button>
+        </form>
+      )}
       <div className="community-page">
         <h2>전공별 커뮤니티</h2>
         <div className="communityCategory">
