@@ -1,12 +1,12 @@
 import React from 'react';
 import Register from './Register';
-import Profile from '../main-page/Profile';
+import MentoProfile from './MentoProfile';
 
 function MentoApplication() {
   return (
     <div className = "mento-application">
-        <Register />
-        <Profile />
+        {/* <Register /> */}
+        <MentoProfile />
     </div>
   );
 }
