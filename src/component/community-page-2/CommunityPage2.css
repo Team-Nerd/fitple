@@ -1,0 +1,25 @@
+.community-page2-img {
+    width: 1228px;
+    height: 468px;
+    margin-top: 262px;
+    margin-left: 102px;
+}
+
+.community-writing-btn{
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    top: 315px;
+    left: 1180px;
+    background-color:transparent;
+    border: none;
+}
+
+.real-post-btn{
+    position: absolute;
+    width: 850px;
+    height: 45px;
+    background-color: transparent;
+    top: 403px;
+    left: 200px;
+}

@@ -5,13 +5,16 @@ import Profile from '../main-page/Profile'
 function MentoApplication () {
     return (
         <div className = "mento-application">
-            <div className = "mento-application-title">멘토 신청</div>
-            <div className = "mento-application-university">대학 정보</div>
-            <div className = "mento-application-major">학과</div>
-            <div className = "mento-application-grade">학년</div>
-            <div className = "mento-application-enrollment">재학 상태</div>
-            <div className = "mento-application-submit">재학증명서/졸업증명서 제출</div>
-            <div className = "mento-application-file-upload"></div>
+            <img className = "mento-application-img" src="/mento-apply-img.png"></img>
+            <img className = "mento-application-white-box" src="/white-box.png"></img>
+            <img className = "mento-application-experience" src="/experience.png"></img>
+            <input className='mento-application-university-input' type='text' placeholder='입력하세요'></input>
+            <input className='mento-application-major-input' type='text' placeholder='입력하세요'></input>
+            <input className='mento-application-grade-input' type='text' placeholder='입력하세요'></input>
+            <input className='mento-application-enrollment-input' type='text' placeholder='입력하세요'></input>
+            <input className='mento-application-intro-input' type='text' placeholder='입력하세요'></input>
+            <input className='mento-application-experience-input' type='text' placeholder='입력하세요'></input>
+            <button className='mento-application-upload-button'>업로드</button>
         </div>
     );
 }

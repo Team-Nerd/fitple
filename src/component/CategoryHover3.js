@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Category.css';
 
 function CategoryHover3() {
@@ -17,7 +18,11 @@ function CategoryHover3() {
           <div className="hover-box3">
             <div> 나의 멘토 <span className="arrow">›</span></div>
             <div> 찜해둔 멘토 <span className="arrow">›</span></div>
-            <div> 멘토 멘티 채팅방 <span className="arrow">›</span></div>
+            <div>
+              <Link to="/mento-chat" className="category-mento-chat" style={{ textDecoration: 'none', color: 'inherit' }}>
+                멘토 멘티 채팅방 <span className="arrow">›</span>
+              </Link>
+            </div>
           </div>
         )}
       </div>

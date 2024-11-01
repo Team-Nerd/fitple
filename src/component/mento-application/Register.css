@@ -1,0 +1,107 @@
+.mento-application-img {
+    position: absolute;
+    width: 880px;
+    height: 470px;
+    top: 250px;
+    left: 113px;
+}
+
+input:focus {
+    outline: none;
+  }
+
+.mento-application-university-input {
+    position:absolute;
+    width: 260px;
+    height: 30px;
+    top: 335px;
+    left: 127px;
+    font-size: 16px;
+    background-color: transparent;
+    border: transparent;
+}
+
+.mento-application-major-input {
+    position:absolute;
+    width: 260px;
+    height: 30px;
+    top: 408px;
+    left: 127px;
+    font-size: 16px;
+    background-color: transparent;
+    border: transparent;
+}
+
+.mento-application-grade-input{
+    position:absolute;
+    width: 100px;
+    height: 30px;
+    top: 480px;
+    left: 127px;
+    font-size: 16px;
+    background-color: transparent;
+    border: transparent;
+}
+
+.mento-application-enrollment-input{
+    position:absolute;
+    width: 100px;
+    height: 30px;
+    top: 480px;
+    left: 275px;
+    font-size: 16px;
+    background-color: transparent;
+    border: transparent;
+}
+
+.mento-application-intro-input{
+    position:absolute;
+    width: 260px;
+    height: 30px;
+    top: 331px;
+    left: 615px;
+    font-size: 16px;
+    background-color: transparent;
+    border: transparent;
+}
+
+.mento-application-white-box {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    top: 500px;
+    left: 600px;
+}
+
+.mento-application-experience{
+    position: absolute;
+    width: 380px;
+    height: 200px;
+    top: 455px;
+    left: 605px;
+}
+
+.mento-application-experience-input{
+    position:absolute;
+    width: 355px;
+    height: 30px;
+    top: 500px;
+    left: 620px;
+    font-size: 16px;
+    background-color: transparent;
+    border: transparent;
+}
+
+.mento-application-upload-button {
+    position:absolute;
+    width: 100px;
+    height: 40px;
+    top: 672px;
+    left: 610px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background-color: #0890ff;
+    color: white;
+}
