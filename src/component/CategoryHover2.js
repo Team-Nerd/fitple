@@ -22,7 +22,11 @@ function CategoryHover2() {
                 멘토 목록 <span className="arrow">›</span>
               </Link>
             </div>
-            <div className = "category-menti-manage"> 멘티 관리 <span className="arrow">›</span></div>
+            <div>
+              <Link to="/menti-manage" className="category-menti-manage" style={{ textDecoration: 'none', color: 'inherit' }}>
+                멘티 관리 <span className="arrow">›</span>
+              </Link>
+            </div>
           </div>
         )}
       </div>
