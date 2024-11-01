@@ -16,4 +16,4 @@ function MentoApplication () {
     );
 }
 
-export default Mentimanage;
+export default MentoApplication;

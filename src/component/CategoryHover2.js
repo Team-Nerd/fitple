@@ -16,7 +16,11 @@ function CategoryHover2() {
         멘토
         {isHovered && (
           <div className="hover-box2">
-            <div className = "category-mento-apply"> 멘토 신청 <span className="arrow">›</span></div>
+            <div>
+              <Link to="/mento-application" className="category-mento-application" style={{ textDecoration: 'none', color: 'inherit' }}>
+                멘토 신청 <span className="arrow">›</span>
+              </Link>
+            </div>
             <div>
               <Link to="/mento-list" className="category-mento-list" style={{ textDecoration: 'none', color: 'inherit' }}>
                 멘토 목록 <span className="arrow">›</span>

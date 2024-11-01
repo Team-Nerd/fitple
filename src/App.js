@@ -4,6 +4,7 @@ import CommunityPage from './component/community-page/CommunityPage';
 import MainPage from './component/main-page/MainPage';
 import MentoList from './component/mento-list/MentoList';
 import MentiManage from './component/menti-manage/MentiManage';
+import MentoApplication from './component/mento-application/MentoApplication';
 // import CommunityWrite from './component/community-write/CommunityWrite';
 import NavBar from './component/NavBar';
 import Header from './component/Header';
@@ -26,6 +27,7 @@ function App() {
           <Route path="/mento-list" element={<MentoList />} /> {/* mento-list 페이지 */}
           {/* <Route path="/community-write" element={<CommunityWrite />} /> { } */}
           <Route path="/menti-manage" element={<MentiManage />} />
+          <Route path="/mento-application" element={<MentoApplication />} />
         </Routes>
       </div>
     </Router>

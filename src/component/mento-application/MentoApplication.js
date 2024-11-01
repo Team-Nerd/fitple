@@ -1,12 +1,14 @@
 import React from 'react';
-import Menti from './Menti';
+import Register from './Register';
+import Profile from '../main-page/Profile';
 
-function MentiManage() {
+function MentoApplication() {
   return (
-    <div className = "menti-manage">
-        <Menti />
+    <div className = "mento-application">
+        <Register />
+        <Profile />
     </div>
   );
 }
 
-export default MentiManage;
+export default MentoApplication;
