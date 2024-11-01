@@ -1,0 +1,178 @@
+.recommendation-box{
+    width: 850px;
+    height: 475px;
+    border: 1.5px solid #cbcbcb;
+    border-radius: 5px;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 255px;
+    margin-left: 120px;
+    
+}
+
+.recommendation-box-seperate-bar{
+    width: 851px;
+    height: 60px;
+    border-bottom: 1.5px solid #cbcbcb;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 255px;
+    margin-left: 121px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.recommendation-explain-best{
+    font-size: 22px;
+    font-weight: 600;
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 157px;
+    color: #0890FF;
+}
+
+.recommendation-explain-number{
+    font-size: 22px;
+    font-weight: 600;
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 885px;
+    color: #0890FF;
+}
+
+.recommendation-number-box1{
+    width: 39px;
+    height: 39px;
+    position: absolute;
+    margin-top: 390px;
+    margin-left: 170px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    border: 0.5px solid black;
+}
+
+.recommendation-text1{
+    position: relative;
+    top: 396px;
+    left: 250px;
+    font-size: 20px;
+    font-weight: 350;
+    width: 550px;
+}
+
+.recommendation-recommend-num1{
+    position: absolute;
+    top: 396px;
+    left: 897px;
+    text-align: center;
+    width: 30px;
+    height: 20px;
+}
+
+.recommendation-number-box2{
+    width: 39px;
+    height: 39px;
+    position: absolute;
+    margin-top: 440px;
+    margin-left: 170px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    border: 0.5px solid black;
+}
+
+.recommendation-text2{
+    position: relative;
+    top: 446px;
+    left: 250px;
+    font-size: 20px;
+    font-weight: 350;
+    width: 550px;
+}
+
+.recommendation-recommend-num2{
+    position: absolute;
+    top: 470px;
+    left: 897px;
+    text-align: center;
+    width: 30px;
+    height: 20px;
+}
+
+.recommendation-number-box3{
+    width: 39px;
+    height: 39px;
+    position: absolute;
+    margin-top: 490px;
+    margin-left: 170px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    border: 0.5px solid black;
+}
+
+.recommendation-text3{
+    position: relative;
+    top: 496px;
+    left: 250px;
+    font-size: 20px;
+    font-weight: 350;
+    width: 550px;
+}
+
+.recommendation-recommend-num3{
+    position: absolute;
+    top: 545px;
+    left: 897px;
+    text-align: center;
+    width: 30px;
+    height: 20px;
+}
+
+.recommendation-number-box4{
+    width: 39px;
+    height: 39px;
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 170px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    border: 0.5px solid black;
+}
+
+.recommendation-text4{
+    position: relative;
+    top: 546px;
+    left: 250px;
+    font-size: 20px;
+    font-weight: 350;
+    width: 550px;
+}
+
+.recommendation-recommend-num4{
+    position: absolute;
+    top: 620px;
+    left: 897px;
+    text-align: center;
+    width: 30px;
+    height: 20px;
+}
+
+.recommendation-extra{
+    position: absolute;
+    margin-top: 580px;
+    margin-left: 695px;
+    font-size: 18px;
+    font-weight: 350;
+}
+
+.recommendation-extra-arrow{
+    position: absolute;
+    margin-top: 576px;
+    margin-left: 895px;
+    width: 35px;
+    height: 30px;
+}

@@ -1,0 +1,32 @@
+.sub-menu {
+    position: absolute;
+    top: -10%; 
+    left: 100%; 
+    width: 160px;
+    background-color: #cee7ff; 
+    border: 1px solid #d3d3d3;
+    z-index: 50; 
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sub-menu a {
+    width: 140px;
+    padding: 3px 8px;
+    display: block;
+    color: #121212;
+    text-decoration: none;
+    font-size: 12px;
+    border-bottom: 1px solid #d3d3d3;
+  }
+  
+  .sub-menu a:last-child {
+    border-bottom: none;
+  }
+  
+  .sub-menu a:hover {
+    color: #0890FF; 
+    cursor: pointer;
+  }
+  
