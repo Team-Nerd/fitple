@@ -56,3 +56,11 @@
     /* white-space: normal; */
 }
 
+.mento-apply-btn {
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    top: 670px;
+    left: 610px;
+    background-color: transparent;
+}
