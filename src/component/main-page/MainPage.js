@@ -8,9 +8,9 @@ import Category from '../Category';
 function MainPage() {
   return (
     <div className = "main-page">
-      <Link to="community-page" className = "ai-deperment-link" style={{ textDecoration: 'none', color: 'inherit' }}>
+      {/* <Link to="community-page" className = "ai-deperment-link" style={{ textDecoration: 'none', color: 'inherit' }}>
         <div className = "ai-depertment-button"></div>
-      </Link>
+      </Link> */}
       <Category />
       <Profile />
       <Recommendation />
